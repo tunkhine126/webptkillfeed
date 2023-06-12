@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import CharacterImage from './components/CharacterImage';
+import MethodImage from './components/MethodImage';
 import Loading from './components/Loading';
 
 function App() {
@@ -38,21 +39,23 @@ function App() {
   return (
     <div className="main-wrapper bg-black min-h-screen">
       <div className="feed mx-auto text-center">
-        <h1 className="title underline text-5xl font-extrabold py-8 text-white"> Overwatch Kill Feed</h1>
+        <h1 className="title underline text-5xl font-extrabold py-8 text-white"> Overwatch Killfeed</h1>
         { loading && (
           <Loading />
         )}
         { error ? (
-          <div>
+          <div className="pb-4">
             <p className="text-lg text-white wrap">😭 {error}</p>
           </div>
         ) : (
-          <div className="killfeed-container">
+          <div className="killfeed-container p-4">
             {killFeedData.map((kill) => (
               <div key={kill.source_player_id} className="flex justify-center border-4 border-red-500 p-4 mx-4">
                 <div className="flex items-center">
                   <p className="sm:flex items-center">
                     <CharacterImage character={kill.source_character} player={kill.source_player_id} />
+                    <MethodImage method={kill.method} damage={kill.damage}/>
+                    <CharacterImage character={kill.target_character} player={kill.target_player_id} />
                   </p>
                 </div>
               </div>

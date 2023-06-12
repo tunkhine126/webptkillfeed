@@ -19,17 +19,15 @@ const CharacterImage = ({character, player}) => {
   }
 
   return (
-    <div className="flex flex-col items-center">
-      <div>
-        <p className="text-lg font-bold text-ow-grey py-2">
-          {character}
-        </p>
+    <div className="character flex flex-col items-center">
+      <div className="text-lg font-bold text-ow-grey py-2">
+        {character}
       </div>
       <div>
         <img className="object-contain h-48 w-96" src={image} alt={character} />
       </div>
-      <div>
-        <p className="text-sm text-white">{player}</p>
+      <div className="text-sm text-white">
+        {player}
       </div>
     </div>
   )
