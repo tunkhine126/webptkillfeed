@@ -1,0 +1,219 @@
+{
+  "status": "successful",
+  "reason": "OK",
+  "payload": [
+    {
+      "platform": "pc",
+      "region": "us",
+      "source_player_id": "DietCokeIsEvil#321",
+      "source_character": "Winston",
+      "target_player_id": "Hegpetz#123",
+      "target_character": "Winston",
+      "method": "Tesla Cannon",
+      "damage": 16
+    }
+  ]
+},
+{
+  "status": "successful",
+  "reason": "OK",
+  "payload": [
+    {
+      "platform": "pc",
+      "region": "us",
+      "source_player_id": "DietCokeIsEvil#321",
+      "source_character": "Mei",
+      "target_player_id": "FalconPunch#133",
+      "target_character": "Winston",
+      "method": "Cryo-Freeze",
+      "damage": 24
+    }
+  ]
+},
+{
+  "status": "successful",
+  "reason": "OK",
+  "payload": [
+    {
+      "platform": "pc",
+      "region": "us",
+      "source_player_id": "Jimmy#222",
+      "source_character": "Zenyatta",
+      "target_player_id": "DietCokeIsEvil#321",
+      "target_character": "Mei",
+      "method": "Orb of Destruction",
+      "damage": 30
+    }
+  ]
+},
+{
+  "status": "failed",
+  "reason": "Failed to reach Overwatch server for kill feed",
+  "payload": [
+    
+  ]
+},
+{
+  "status": "successful",
+  "reason": "OK",
+  "payload": [
+    {
+      "platform": "pc",
+      "region": "us",
+      "source_player_id": "Hegpetz#123",
+      "source_character": "Winston",
+      "target_player_id": "Jimmy#222",
+      "target_character": "Zenyatta",
+      "method": "Primal Rage",
+      "damage": 84
+    }
+  ]
+},
+{
+  "error": 500,
+  "message": "Cthulu ate my JSON response"
+},
+{
+  "status": "successful",
+  "reason": "OK",
+  "payload": [
+    {
+      "platform": "pc",
+      "region": "us",
+      "source_player_id": "Jimmy#222",
+      "source_character": "Zenyatta",
+      "target_player_id": "FalconPunch#133",
+      "target_character": "Winston",
+      "method": "Orb of Discord",
+      "damage": 70
+    }
+  ]
+},
+{
+  "status": "successful",
+  "reason": "OK",
+  "payload": [
+    {
+      "platform": "pc",
+      "region": "us",
+      "source_player_id": "Hegpetz#123",
+      "source_character": "Winston",
+      "target_player_id": "FalconPunch#133",
+      "target_character": "Zenyatta",
+      "method": "Primal Rage",
+      "damage": 82
+    }
+  ]
+},
+{
+  "status": "successful",
+  "reason": "OK",
+  "payload": [
+    {
+      "platform": "pc",
+      "region": "us",
+      "source_player_id": "DietCokeIsEvil#321",
+      "source_character": "Mei",
+      "target_player_id": "Hegpetz#123",
+      "target_character": "Zenyatta",
+      "method": "Icicle",
+      "damage": 24
+    }
+  ]
+},
+{
+  "status": "successful",
+  "reason": "OK",
+  "payload": [
+    {
+      "platform": "pc",
+      "region": "us",
+      "source_player_id": "Hegpetz#123",
+      "source_character": "Zenyatta",
+      "target_player_id": "FalconPunch#133",
+      "target_character": "Mei",
+      "method": "Orb of Destruction",
+      "damage": 16
+    }
+  ]
+},
+{
+  "status": "successful",
+  "reason": "OK",
+  "payload": [
+    {
+      "platform": "pc",
+      "region": "us",
+      "source_player_id": "Hegpetz#123",
+      "source_character": "Winston",
+      "target_player_id": "DietCokeIsEvil#321",
+      "target_character": "Zenyatta",
+      "method": "Primal Rage",
+      "damage": 87
+    }
+  ]
+},
+{
+  "status": "successful",
+  "reason": "OK",
+  "payload": [
+    {
+      "platform": "pc",
+      "region": "us",
+      "source_player_id": "DietCokeIsEvil#321",
+      "source_character": "Winston",
+      "target_player_id": "Hegpetz#123",
+      "target_character": "Winston",
+      "method": "Primal Rage",
+      "damage": 99
+    }
+  ]
+},
+{
+  "status": "successful",
+  "reason": "OK",
+  "payload": [
+    {
+      "platform": "pc",
+      "region": "us",
+      "source_player_id": "DietCokeIsEvil#321",
+      "source_character": "Zenyatta",
+      "target_player_id": "Hegpetz#123",
+      "target_character": "Mei",
+      "method": "Orb of Destruction",
+      "damage": 21
+    }
+  ]
+},
+{
+  "status": "successful",
+  "reason": "OK",
+  "payload": [
+    {
+      "platform": "pc",
+      "region": "us",
+      "source_player_id": "Hegpetz#123",
+      "source_character": "Mei",
+      "target_player_id": "FalconPunch#133",
+      "target_character": "Mei",
+      "method": "Cryo-Freeze",
+      "damage": 21
+    }
+  ]
+},
+{
+  "status": "successful",
+  "reason": "OK",
+  "payload": [
+    {
+      "platform": "pc",
+      "region": "us",
+      "source_player_id": "Hegpetz#123",
+      "source_character": "Winston",
+      "target_player_id": "DietCokeIsEvil#321",
+      "target_character": "Mei",
+      "method": "Primal Rage",
+      "damage": 96
+    }
+  ]
+},
