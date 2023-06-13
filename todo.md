@@ -1,5 +1,4 @@
-Tailwind
-Router? 
+- Tailwind
 
 - fetch API
 - error handling
